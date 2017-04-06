@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box ;
+    box-sizing:border-box ;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 1%;
+}
+
+.menu li{
+    float:left;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    width: 16.4%;
+   
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu li a:hover{
+    transition: all .3s ease;
+    border-radius: 3px;
+    background: white;
+    color: black;
+    transform: scale(1.2);
+}
+
+.header_img{
+    width: 100%;
+    max-height: 250px;
+}
+
+nav{
+    position: relative;
+    background: url(Img/Header.jpg) no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.navigation_text{
+    position: absolute;
+    top: 25%;
+    left:18%;
+    color: white;
+    text-shadow: 0px 1px 30px rgba(0, 25, 0, 1);
+}
+
+.navigation h1{
+    position: absolute;
+    font-weight: normal;
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+
+.navigation h1::after{
+    content: "&Arremangado";
+    display: inline;
+    position: absolute;
+    font-weight: bold;
+    
+}
+
+.main{
+    width: 70%;
+    
+    float: left;
+}
+
+.main .information{
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.main .information .information_subitem{
+    border-bottom: 3px solid #000;
+    margin: 20px;
+}
+
+.main .information .information_subitem > h2{
+    text-align: left;
+    letter-spacing: 10px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+
+
+.main .information .information_subitem .imagen1{
+    background: url(Img/Dibujo.jpg);
+    background-size: cover;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.main .information .information_subitem .imagen2{
+    background: url(Img/Plano.jpg);
+    background-size: cover;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.main .information .information_subitem .imagen3{
+    background: url(Img/Lopez.jpg);
+    background-size: cover;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.main .information .information_subitem div{
+    position: relative;
+    color: white;
+    text-shadow: -3px 0px 30px rgba(0, 25, 0, 1);
+    top:50%;
+}
+
+.main .information .information_subitem div .dibu_text{
+    position: absolute;
+    top:40%;
+    left: 3%;
+    font-size: 35px;
+    letter-spacing: 10px;
+}
+.main .information .information_subitem div .arqui_text{
+    position: absolute;
+    top:40%;
+    left: 3%;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.main .information .information_subitem div .lopez_text{
+    position: absolute;
+    top:35%;
+    left: 3%;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+.main .information .information_subitem div .lopez_text .mexico_text
+{
+    position: absolute;
+    left: 15%;
+}
+
+.main .information .information_subitem div h3{
+    text-decoration: underline;
+    font-weight: normal;
+    position: absolute;
+    top: 55%;
+    letter-spacing: 10px;
+    left: 25%;
+    text-shadow: 0px 1px 30px rgba(0, 25, 0, 1);
+    font-size: 20px;
+    text-transform: lowercase;
+}
+.main .information .information_subitem div h3 span{
+    font-weight: bold;
+}
+
+.main .information .information_subitem p{
+    padding: 20px 0px;
+    font-weight: bold;
+    word-spacing: 25px;
+    font-size: 25px;
+}
+
+.main .information .information_subitem p a{
+    color: black;
+    padding: 0px 5px;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+.main .information .information_subitem p a:hover{
+    background: black;
+    color:white;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: all .3s ease;
+}
+
+.widget{
+    width: 25%;
+    float: left;
+    position: relative;
+}
+
+.widget .Subscribirse{
+    position: absolute;
+    height: 348px;
+    border-radius: 15px;
+    color: white;
+    top: 11.5%;
+}
+
+.widget .Subscribirse div >input[type="text"]{
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    background: url(../Img/Buscador.png) no-repeat;
+    background-position: center;
+    padding-left: 15px;
+}
+
+.widget .Subscribirse div >input[type="text"]:hover,.widget .Subscribirse div >input[type="text"]:focus
+{
+    transition: all 0.3s ease;
+    background: #f2f2f2;
+    color: black;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+}
+
+
+
+.widget .Subscribirse .Subscribirse_items{
+    background: #040404;
+    height: 352px;
+    padding: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.widget .Subscribirse .Subscribirse_items h3{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.widget .Subscribirse .Subscribirse_items p{
+    padding: 10px 5px;
+    margin-bottom: 15px;
+}
+
+.widget .Subscribirse .Subscribirse_items .email_button .email,.widget .Subscribirse .Subscribirse_items .email_button .btn{
+    display: inline-block;
+    position: relative;
+    margin: 10px 0px;
+    
+}
+
+input[type="submit"]{ 
+    left: 10%;
+    background: #f2f2f2;
+    color: black;
+    width: 80%;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 60px;
+    
+}
+
+input[type="submit"]:hover{
+    background: black;
+    border: 2px solid white;
+    color: white;
+    transition: all .3s ease;
+    transform:scale(1.2);
+    cursor: pointer;
+}
+
+input[type="email"] {
+    background: #f2f2f2;
+    color: black;
+    width: 80%;
+    text-align: center;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 60px;
+    margin-left: 10%;
+}
+.temas{
+    position: relative;
+    top:710px;
+    height:348px;
+    padding: 0px 15px;
+}
+
+.temas h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.temas ul li a{
+    color: black;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.temas ul li{
+    list-style: none;
+    width: 45%;
+}
+
+.temas ul li a:hover{
+    background: black;
+    color: white;
+    border: 5px solid #ccc;
+    border-radius: 15px;
+}
+
+footer{
+    width: 100%;
+    float: left;
+    background: black;
+    color: white;
+    border: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.tienda{
+    position: relative;
+    top:952px;
+    height:348px;
+    padding: 0px 15px;
+    background: url(Img/Store.jpg) no-repeat;
+    color: white;
+}
+
+.tienda h2{
+    position: absolute;
+    top:45%;
+    left: 27%;
+    font-size: 50px;
+}
+
+.tienda:hover{
+    transition: all 1s ease;
+    background: url(Img/Store_hover.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+
